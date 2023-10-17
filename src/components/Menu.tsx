@@ -1,9 +1,8 @@
 "use client"
-import React, {useState} from 'react';
+import CartIcon from "@/components/CartIcon";
 import Image from "next/image";
 import Link from "next/link";
-import {it} from "node:test";
-import CartIcon from "@/components/CartIcon";
+import { useState } from 'react';
 
 const links = [
     {id: 1, title: "Home", url: "/"},

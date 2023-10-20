@@ -19,7 +19,8 @@ const data = [
 
 
 const Slider = () => {
-    const [currentSlide, setCurrentSlide]
+    console.log('unit-testing');
+    // const [currentSlide, setCurrentSlide]
     return (
         <div>
             <div className="flex flex-col h-[calc(100vh-6rem)] md:h-[calc(100vh-9rem)] lg:flex-row bg-fuchsia-50">
